@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Variables</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device_width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../../../CSS/commontuts.css">
+</head>
+<body>
+	<h1>Variables</h1>
+	<p>
+		<ul type="disc">
+			<li>JavaScript application needs to work with information. <br>Here are two examples: <br>An online shop – the information might include goods being sold and a shopping cart.<br>A chat application – the information might include users, messages, and much more.<br>Variables are used to store this information.</li>
+			<li>A variable is a “named storage” for data. </li>
+			<li>To create a variable in JavaScript, use the let keyword.
+			<br>let message;
+			<br>Now, we can put some data into it by using the assignment operator =:
+			<br>message = 'Hello'; // store the string
+			<br>To be concise, we can combine the variable declaration and assignment into a single line: 
+			let message = 'Hello!'; // define the variable and assign the value <br> 
+			alert(message); // Hello!</li>
+			<li>We can also declare multiple variables in one line: let user = 'John', age = 25, message = 'Hello'; </li>
+			<li>Also you can define multiple variables in this multiline style: let user = 'John',  age = 25, message = 'Hello';</li> 
+			<li>In older scripts, you may also find another keyword: var instead of let: var message = 'Hello';</li>
+			<li>Declaring twice triggers an error </li>
+			<li>A variable should be declared only once. </li>
+			<li>A repeated declaration of the same variable is an error:
+			<br>let message = "This";// repeated 'let' leads to an error
+			<br>let message = "That"; // SyntaxError: 'message' has already been declared <br>So, we should declare a variable once and then refer to it without let.</li>
+		</ul>
+	</p>
+	<div class="next">
+	<button><a href="Variable Naming.html">&nbsp;&nbsp;NEXT&nbsp;&nbsp;</a></button>
+</div>
+</body>
+</html>

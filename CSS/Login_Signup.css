@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+::placeholder
+{
+    font-family: Roboto Mono;
+    color: black;
+    font-weight: 700;
+    color: rgba(10,92,83,1.00);
+    font-size: 1.1em;
+}
+body
+		{
+            background-color: black;
+			font-family: arial;
+			color:white;
+            overflow: hidden;
+            margin: 0px;
+            border: 0px;
+            padding: 0px;
+		}
+.bg_image
+{
+     /* The image used */
+  background-image: url("../HTML/Vintage Tutorial.png");
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+  /* Add the blur effect */
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+
+  /* Full height */
+  height: 100vw;
+
+  /* Center and scale the image nicely */
+    
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+		table, input, textarea
+		{
+			background-color: rgba(240,240,240,0.45);
+		}
+		#frm_signin
+		{
+            font-size: 1.4em;
+            position: absolute;
+            left: auto;
+            top: 30%;
+            right: 65%;
+            width: 30%;
+            height: auto;
+			padding: 15px 20px;
+			border-radius: 40px;
+		}
+        #frm
+		{
+            font-size: 1.4em;
+            position: absolute;
+            left: 66%;
+            top: 7%;
+            right: auto;
+            width: 30%;
+            height: auto;
+			padding: 15px 20px;
+			border-radius: 40px;
+		}    
+		input
+		{
+            border-radius: 40px;
+            font-size: 0.7em;
+			border-style: none;
+			border-bottom-style: solid;
+			border-bottom-width: 2px;
+			width: 400px;
+            padding: 10px;
+		}
+input:hover, input:focus{
+    background-color: rgba(63,98,173,1.00);
+}
+		caption
+		{
+			margin-bottom: 8px;
+		}
+		#sub,#sub1
+		{
+			background-color: rgb(37,217,133);
+			border-radius: 40px;
+			border-style: none;
+			width: auto;
+            font-size: 1em;
+            padding: 2px 6px;
+		}
+#sub:hover, #sub:focus
+{
+    background-color: rgba(184,18,20,1.00);
+}
+td, input
+{
+    text-align: center;
+}
+select
+{
+    width: 25%;
+    border: solid rgba(196,40,42,1.00);
+    border-radius: 20px;
+    padding: 6px;
+    font-size: 0.64em;
+    background-color: rgba(185,221,88,0.40);
+}
+#header1
+{
+    letter-spacing: 4.5px;
+    font-size: 1em;
+    border-radius: 40px;
+    padding: 4px 2px;
+    margin-top: auto;
+    margin-bottom: 2px;
+    color: black;
+    background-color: rgba(157,138,232,0.36);
+}
+#header2{
+    letter-spacing: 4.5px;
+    font-size: 1.2em;
+    border-radius: 40px;
+    padding: 4px 2px;
+    margin-top: auto;
+    
+    margin-bottom: 2px;
+    color: black;
+    background-color: rgba(157,138,232,0.36);
+}
+#agree
+{
+    width: 12.8px;
+    margin-right: 10px;
+    text-align: justify;
+}
+#agr
+{
+    color: darkblue;
+    vertical-align: middle;
+    font-size: 16px;
+    font-family: comic neue;
+    font-weight: 700;
+}
+#agre
+{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    font-weight: 700;
+    color: darkblue;
+    font-size: 20px;
+}
+.left,.right
+{
+    border-radius: 40px;
+}
+.left{
+    padding-top: 10px;
+}

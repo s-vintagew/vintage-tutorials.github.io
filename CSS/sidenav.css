@@ -1,0 +1,35 @@
+a
+{
+	color:black;
+}
+.sidenav
+{
+	color:black;
+	background-color: #d1b3ff;
+	font-size: 1.4em;
+	font-family: "Segoe UI",Arial,sans-serif;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+.sidenav li a
+{
+	text-decoration: none;
+}
+.sidenav li:hover {
+  background-color: #a366ff; 
+  color:white;
+
+}
+.sidenav li a:hover {
+  color: white;
+  text-decoration: none;
+}
+ul
+{
+	padding-left: 10px;
+	line-height: 40px;
+}
+.sidenav li samp:hover
+{
+	color:#d1b3ff;
+}

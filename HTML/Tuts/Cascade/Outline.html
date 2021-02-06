@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Outline</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device_width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../../../CSS/commontuts.css">
+</head>
+<body>
+	<h1>CSS Outlines</h1>
+	<p>An outline is a line that is drawn around elements, OUTSIDE the borders, to make the element "stand out".
+	CSS has the following outline properties:
+	<ul type="disc">
+		<li>outline-style</li>
+		<li>outline-color</li>
+		<li>outline-width</li>
+		<li>outline-offset</li>
+		<li>outline-shorthand</li>
+	</ul>
+	</p>
+
+	<h3>outline-style</h3>
+	<p>
+		The outline-style property specifies the style of the outline, and can have one of the following values:
+		<ul type="disc">
+			<li>dotted - Defines a dotted outline</li>
+			<li>dashed - Defines a dashed outline</li>
+			<li>solid - Defines a solid outline</li>
+			<li>double - Defines a double outline</li>
+			<li>groove - Defines a 3D grooved outline</li>
+			<li>ridge - Defines a 3D ridged outline</li>
+			<li>inset - Defines a 3D inset outline</li>
+			<li>outset - Defines a 3D outset outline</li>
+			<li>none - Defines no outline</li>
+			<li>hidden - Defines a hidden outline</li>
+		</ul>
+	</p>
+	<fieldset><legend>Example</legend>
+		<pre>
+	p.dotted {outline-style: dotted;}
+	p.dashed {outline-style: dashed;}
+	p.solid {outline-style: solid;}
+	p.double {outline-style: double;}
+	p.groove {outline-style: groove;}
+	p.ridge {outline-style: ridge;}
+	p.inset {outline-style: inset;}
+	p.outset {outline-style: outset;}
+		</pre>
+	</fieldset>
+	<p class="demo">
+		<img src="../../Outline.png">
+	</p>
+
+	<h3>outline-color</h3>
+	<p>
+		The outline-color property is used to set the color of the outline.
+		The color can be set by:<br>
+		<ul type="square">
+		<li>name - specify a color name, like "red"</li>
+		<li>HEX - specify a hex value, like "#ff0000"</li>
+		<li>RGB - specify a RGB value, like "rgb(255,0,0)"</li>
+		<li>HSL - specify a HSL value, like "hsl(0, 100%, 50%)"</li>
+		<li>invert - performs a color inversion (which ensures that the outline is visible, regardless of color background)</li>
+		</ul>
+	</p>
+	<fieldset><legend>Example</legend>
+		<pre>
+	p.ex1 {
+  		outline-style: solid;
+  		outline-color: rgb(255, 0, 0); /* red */
+	}
+		</pre>
+	</fieldset>
+
+	<h3>outline-width</h3>
+	<p>The outline-width property specifies the width of the outline, and can have one of the following values:
+		<ul type="disc">
+			<li>thin (typically 1px)</li>
+			<li>medium (typically 3px)</li>
+			<li>thick (typically 5px)</li>
+			<li>A specific size (in px, pt, cm, em, etc)</li>
+		</ul>
+	</p>
+	<fieldset><legend>Example</legend>
+		<pre>
+	p.ex1 {
+  		border: 1px solid black;
+  		outline-style: solid;
+  		outline-color: red;
+  		outline-width: thin;
+	}
+		</pre>
+	</fieldset>
+
+	<h3>outline-offset</h3>
+	<p>The outline-offset property adds space between an outline and the edge/border of an element. The space between an element and its outline is transparent.</p>
+	<fieldset><legend>Example</legend>
+		<pre>
+	p {
+  		margin: 30px;
+  		border: 1px solid black;
+  		outline: 1px solid red;
+  		outline-offset: 15px;
+	}
+		</pre>
+	</fieldset>
+	<p class="demo">
+		<img src="../../outline-off.png">
+	</p>
+
+	<h3>outline-shorthand</h3>
+	<p>The outline property is a shorthand property for setting the following individual outline properties:
+	<ul>
+		<li>outline-width</li>
+		<li>outline-style (required)</li>
+		<li>outline-color</li>
+	</ul>
+	<p>The outline property is specified as one, two, or three values from the list above. The order of the values does not matter.</p>
+	</p>
+	<fieldset><legend>Example</legend>
+		<pre>
+	p.ex1 {outline: dashed;}
+	p.ex2 {outline: dotted red;}
+	p.ex3 {outline: 5px solid yellow;}
+	p.ex4 {outline: thick ridge pink;}
+		</pre>
+	</fieldset>
+	<p class="demo">
+		<img src="../../outline-short.png">
+	</p>
+	<div class="next">
+	<button><a href="Margin.html">&nbsp;&nbsp;NEXT&nbsp;&nbsp;</a></button>
+</div>
+</body>
+</html>

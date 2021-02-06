@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Margin</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device_width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../../../CSS/commontuts.css">
+</head>
+<body>
+	<h1>CSS Margin</h1>
+	<p>The CSS margin properties are used to create space around elements, outside of any defined borders.<br>With CSS, you have full control over the margins. There are properties for setting the margin for each side of an element (top, right, bottom, and left).</p>
+	<p>CSS has properties for specifying the margin for each side of an element:
+		<ul type="square">
+			<li>margin-top</li>
+			<li>margin-right</li>
+			<li>margin-bottom</li>
+			<li>margin-left</li>		
+		</ul>
+	</p>
+	<p>All the margin properties can have the following values:
+		<ul type="square">
+			<li>auto - the browser calculates the margin</li>
+			<li>length - specifies a margin in px, pt, cm, etc.</li>
+			<li>% - specifies a margin in % of the width of the containing element</li>
+			<li>inherit - specifies that the margin should be inherited from the parent element</li>
+		</ul>
+	</p>
+	<fieldset><legend>Example</legend>
+		<pre>
+	p {
+  		margin-top: 100px;
+  		margin-bottom: 100px;
+  		margin-right: 150px;
+  		margin-left: 80px;
+	}
+		</pre>
+	</fieldset>
+
+	<h3>margin-shorthand</h3>
+	<p>To shorten the code, it is possible to specify all the margin properties in one property.</p>
+	<p>
+		If the margin property has four values:
+		<ul type="square">
+			<li>margin: 25px 50px 75px 100px;</li>
+			<li>top margin is 25px</li>
+			<li>right margin is 50px</li>
+			<li>bottom margin is 75px</li>
+			<li>left margin is 100px</li>
+		</ul>
+		<fieldset><legend>Example</legend>
+			<pre>
+	p {
+ 	margin: 25px 50px 75px 100px;
+	}
+			</pre>
+		</fieldset>
+	</p>
+	<p>
+		If the margin property has three values:
+		<ul type="square">
+			<li>margin: 25px 50px 75px;</li>
+			<li>top margin is 25px</li>
+			<li>right and left margin is 50px</li>
+			<li>bottom margin is 75px</li>
+		</ul>
+		<fieldset><legend>Syntax</legend>
+			<pre>
+	p {
+ 	margin: 25px 50px 75px;
+	}
+			</pre>
+		</fieldset>
+	</p>
+	<p>
+		If the margin property has two values:
+		<ul type="square">
+			<li>margin: 25px 50px;</li>
+			<li>top and bottom margin is 25px</li>
+			<li>right and left margin is 50px</li>
+		</ul>
+		<fieldset><legend>Syntax</legend>
+			<pre>
+	p {
+ 	margin: 25px 50px;
+	}
+			</pre>
+		</fieldset>
+	</p>
+	<p>
+		If the margin property has one values:
+		<ul type="square">
+			<li>margin: 25px;</li>
+			<li>all four margins are 25px</li>
+		</ul>
+		<fieldset><legend>Syntax</legend>
+			<pre>
+	p {
+ 	margin: 25px;
+	}
+			</pre>
+		</fieldset>
+	</p>
+	<div class="next">
+	<button><a href="Padding.html">&nbsp;&nbsp;NEXT&nbsp;&nbsp;</a></button>
+</div>
+</body>
+</html>
